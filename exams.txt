@@ -1,0 +1,1071 @@
+# PRINCEB EXAMS v1
+CC103
+What does the #include <iostream> directive do in a C++ program?
+4
+Declares variables
+Starts the program execution
+Includes input/output stream library
+Defines the main function
+2
+Which of the following is the correct way to display output in C++?
+4
+print("Hello");
+cout << "Hello";
+printf("Hello");
+console.WriteLine("Hello");
+1
+Every C++ program must have which function?
+4
+void start()
+int run()
+int main()
+voi program()
+2
+What is the file extension of a standard C++ source code file?
+4
+.exe
+.cpp
+.java
+.txt
+1
+Which operator is used for input in C++?
+4
+<<
+>>
+::
+&&
+1
+Which of the following is a correct declaration of a variable in C++?
+4
+int x;
+var x;
+number x;
+declare x;
+0
+What does the keyword using namespace std; do?
+4
+Defines a function
+Declares variables globally
+Allows access to standard library objects without std:: prefix
+Ends the program
+2
+Which symbol is used to terminate a C++ statement?
+4
+, (comma)
+: (colon)
+; (semicolon)
+. (period)
+2
+What is the correct way to take input from the user in C++?
+4
+cin >> variable;
+input(variable);
+read(variable);
+scan(variable);
+0
+Which operator is used for single-line comments in C++?
+4
+//
+/* */
+#
+<!-- -->
+0
+Which data type is used to store a single character?
+4
+string
+int
+char
+float
+2
+Which loop will execute at least once, even if the condition is false?
+4
+for loop
+while loop
+do-while loop
+nested loop
+2
+What will the expression 5 % 2 output?
+4
+2
+2.5
+1
+0.5
+2
+Which header file is required for file handling in C++?
+4
+<fstream>
+<stdlib.h>
+<string>
+<iostream>
+0
+Which of the following is a correct way to define a function in C++?
+4
+void function() { }
+def function() { }
+function() : void { }
+func void() { }
+0
+
+KOMFIL
+Ano ang ibig sabihin ng salitang "kontekstwalisado"?
+4
+Walang kahulugan
+May kaugnayan sa konteksto o kalagayan
+Palaging tama
+Hindi nauunawaan
+1
+Ano ang pangunahing layunin ng komunikasyon sa kontekstwalisadong paraan?
+4
+Magpatawa lamang
+Maghatid ng mensahe na angkop sa sitwasyon at kultura
+Magbigay ng maling impormasyon
+Magpataw ng opinyon
+1
+Ano ang tawag sa paraan ng pagpapahayag na gumagamit ng mga kilos o galaw ng katawan?
+4
+Verbal na komunikasyon
+Di-verbal na komunikasyon
+Pasalitang komunikasyon
+Pagsulat
+1
+Alin sa mga sumusunod ang halimbawa ng pormal na komunikasyon?
+4
+Usapan sa kanto
+Talumpati sa paaralan
+Chat sa social media
+Palitan ng biro sa bahay
+1
+Ano ang ibig sabihin ng "kodipikasyon" sa proseso ng komunikasyon?
+4
+Pagpapadala ng mensahe
+Pagbibigay-kahulugan sa mensahe
+Pagbabago ng mensahe sa simbolo o salita
+Pagtanggap ng mensahe
+2
+Ano ang tawag sa hadlang na nakakaapekto sa malinaw na komunikasyon?
+4
+Feedback
+Noise o ingay
+Channel
+Context
+1
+Saang bahagi ng proseso ng komunikasyon nangyayari ang pagtanggap ng mensahe?
+4
+Encoder
+Decoder
+Sender
+Channel
+1
+Ano ang ibig sabihin ng "konteksto" sa komunikasyon?
+4
+Lugar kung saan nagaganap ang komunikasyon
+Mensahe na ipinapadala
+Kalagayan o sitwasyon na nakapaligid sa komunikasyon
+Taong nakikinig
+2
+Ano ang tawag sa uri ng komunikasyon na nagaganap sa pagitan ng dalawang tao lamang?
+4
+Pampubliko
+Pangmasa
+Interpersonal
+Panggrupo
+2
+Ano ang ibig sabihin ng "feedback" sa proseso ng komunikasyon?
+4
+Mensahe na ipinapadala
+Tugon o reaksyon ng tagatanggap sa mensahe
+Hadlang sa komunikasyon
+Lugar ng komunikasyon
+1
+Alin sa mga sumusunod ang halimbawa ng di-pormal na komunikasyon?
+4
+Ulat sa trabaho
+Usapan ng magkakaibigan
+Pagsulat ng liham opisyal
+Pagtalakay sa pulong
+1
+Ano ang tawag sa paggamit ng mga salita o simbolo upang maipahayag ang mensahe?
+4
+Kodigo
+Channel
+Mensahe
+Feedback
+0
+Ano ang ibig sabihin ng "interkultural na komunikasyon"?
+4
+Komunikasyon sa loob ng isang kultura lamang
+Komunikasyon sa pagitan ng iba't ibang kultura
+Komunikasyon gamit ang teknolohiya
+Komunikasyon sa pormal na paraan
+1
+Ano ang papel ng "tagapaghatid" sa proseso ng komunikasyon?
+4
+umanggap ng mensahe
+Magbigay ng tugon
+Magpadala o maghatid ng mensahe
+Magbigay ng hadlang
+2
+Ano ang tawag sa paraan ng komunikasyon na gumagamit ng teknolohiya tulad ng telepono, email, o social media?
+4
+Tradisyunal na komunikasyon
+Di-verbal na komunikasyon
+Komunikasyong pang-masa
+Komunikasyong elektronik
+3
+
+MS101
+What is the negation of the statement: "All birds can fly"?
+4
+All birds cannot fly
+No birds can fly
+Some birds cannot fly
+Some birds can fly
+2
+Which of the following is a tautology?
+4
+$ p \land \neg p $
+$ p \lor \neg p $
+$ p \implies q $
+$ \neg (p \lor q) $
+1
+If $ A = {1, 2, 3} $ and $ B = {2, 3, 4} $, what is $ A \cup B $?
+4
+${1, 2, 3}$
+${2, 3, 4}$
+${1, 2, 3, 4}$
+${1, 4}$
+2
+What is the cardinality of the power set of a set with 4 elements?
+4
+4
+8
+16
+32
+2
+ Which of the following relations on the set of integers is an equivalence relation?
+4
+$xRy$ if $x < y$
+$xRy$ if $x = y$
+$xRy$ if $x \neq y$
+$xRy$ if $x \leq y$
+1
+What is the number of ways to arrange the letters in the word "MATH"?
+4
+12
+24
+36
+48
+1
+Which of the following functions is one-to-one (injective)?
+4
+$f(x) = x^2$ for all real $x$
+$f(x) = 2x + 3$ for all real $x$
+$f(x) = \sin x$ for all real $x$
+$f(x) = |x|$ for all real $x$
+1
+What is the value of the binomial coefficient $\binom{5}{2}$?
+4
+5
+10
+15
+20
+1
+In graph theory, a path that starts and ends at the same vertex and uses every edge exactly once is called a:
+4
+Hamiltonian path
+Eulerian circuit
+Simple path
+Cycle
+1
+Which of the following is true for a simple graph with $n$ vertices?
+4
+Maximum number of edges is $n$
+Maximum number of edges is $n(n-1)/2$
+Maximum number of edges is $2n$
+Maximum number of edges is $n^2$
+1
+What is the contrapositive of the statement: "If it rains, then the ground is wet"?
+4
+If it does not rain, then the ground is not wet
+If the ground is wet, then it rains
+If the ground is not wet, then it does not rain
+If it rains, then the ground is not wet
+2
+Which of the following sets is countably infinite?
+4
+The set of real numbers between 0 and 1
+The set of natural numbers
+The set of all points in a plane
+The set of irrational numbers
+1
+What is the sum of the first 10 natural numbers?
+4
+45
+50
+55
+60
+2
+Which logical connective corresponds to the statement: "p only if q"?
+4
+$p \implies q$
+$q \implies p$
+$p \land q$
+$p \lor q$
+0
+How many subsets of size 3 can be formed from a set of 7 elements?
+4
+21
+35
+42
+56
+1
+
+IPT101
+What does IDE stand for in programming?
+4
+Integrated Development Environment
+Internal Data Engine
+Internet Development Extension
+Integrated Data Execution
+0
+Which of the following is NOT a programming language?
+4
+Java
+Python
+HTML
+C++
+2
+What is the correct syntax to output "Hello, World!" in Python?
+4
+echo("Hello, World!")
+print("Hello, World!")
+printf("Hello, World!")
+cout << "Hello, World!";
+1
+Which of the following is a version control system?
+4
+Git
+Docker
+Jenkins
+Kubernetes
+0
+What is the purpose of a compiler?
+4
+To execute code line by line
+To convert source code into machine code
+To debug programs
+To write code
+1
+Which data type is used to store true or false values?
+4
+Integer
+String
+Boolean
+Float
+2
+What symbol is used to start a single-line comment in Python?
+4
+//
+#
+/*
+--
+1
+Which of the following is an example of a loop structure?
+4
+if-else
+switch-case
+for
+try-catch
+2
+What does HTML stand for?
+4
+HyperText Markup Language
+Hyperlink and Text Markup Language
+Home Tool Markup Language
+Hyperlinking Text Marking Language
+0
+Which tag is used to create a hyperlink in HTML?
+4
+<link>
+<a>
+<href>
+<url>
+1
+What is the output of the following Python code?
+4
+2.5
+2
+1
+5
+1
+Which of the following is NOT a database management system?
+4
+MySQL
+Oracle
+MongoDB
+HTML
+3
+What is the main function of an operating system?
+4
+To write programs
+To manage computer hardware and software resources
+To compile code
+To design websites
+1
+Which of the following is a markup language used for structuring web pages?
+4
+CSS
+JavaScript
+HTML
+Python
+2
+What does CSS stand for?
+4
+Computer Style Sheets
+Cascading Style Sheets
+Creative Style System
+Colorful Style Sheets
+1
+
+NET101
+What does LAN stand for?
+4
+Large Area Network
+Local Area Network
+Long Access Network
+Light Area Network
+1
+Which device is used to connect multiple devices within a LAN and forwards data only to the intended recipient?
+4
+Hub
+Switch
+Router
+Modem
+1
+What is the primary function of a router?
+4
+To connect devices within the same network
+To connect different networks together
+To amplify signals
+To store data
+1
+Which protocol is used to assign IP addresses automatically to devices on a network?
+4
+FTP
+DHCP
+HTTP
+DNS
+1
+What is the default port number for HTTP?
+4
+21
+80
+443
+25
+1
+ What type of IP address is 192.168.1.1?
+4
+Public IP address
+Private IP address
+Loopback address
+Broadcast address
+1
+Which layer of the OSI model is responsible for data encryption and decryption?
+4
+Physical Layer
+Data Link Layer
+Presentation Layer
+Network Layer
+2
+What does MAC address stand for?
+4
+ Media Access Control
+Machine Access Code
+Media Address Control
+Machine Address Code
+0
+Which of the following is a connectionless protocol?
+4
+TCP
+UDP
+FTP
+HTTP
+1
+What is the maximum cable length for a standard Ethernet (Cat5e) cable?
+4
+50 meters
+100 meters
+200 meters
+500 meters
+1
+What does DNS stand for?
+4
+Domain Name System
+Data Network Service
+Digital Network Server
+Domain Number System
+0
+Which device converts digital signals to analog signals for transmission over telephone lines?
+4
+Router
+Switch
+Modem
+Hub
+2
+What is the purpose of a firewall in a network?
+4
+To speed up data transmission
+To block unauthorized access
+To connect different networks
+To assign IP addresses
+1
+Which protocol is used to securely transfer files over the internet?
+4
+FTP
+SFTP
+HTTP
+SMTP
+1
+What is the binary equivalent of the decimal number 10?
+4
+1010
+1100
+1001
+1110
+0
+
+MS102
+What is the mean of the data set: 4, 8, 6, 10, 12?
+4
+6
+8
+10
+12
+1
+In probability, the sum of all possible outcomes must be:
+4
+1.5
+1
+3
+4
+1
+Which of the following is a continuous probability distribution?
+4
+Binomial distribution
+Poisson distribution
+Normal distribution
+Geometric distribution
+2
+What is the objective function in a linear programming problem?
+4
+The set of constraints
+The function to be maximized or minimized
+The feasible region
+The decision variables
+1
+ In simulation, what is the purpose of a random number generator?
+4
+To solve equations
+To model uncertainty and randomness
+To optimize functions
+To create graphs
+1
+What does the term "feasible solution" mean in linear programming?
+4
+A solution that violates constraints
+A solution that satisfies all constraints
+The optimal solution
+A solution with negative values
+1
+The variance of a data set measures:
+4
+The average value
+The spread or dispersion of the data
+The middle value
+The most frequent value
+1
+Which method is commonly used to solve linear programming problems graphically?
+4
+Simplex method
+Graphical method
+Monte Carlo simulation
+Regression analysis
+1
+In queuing theory, what does the term "arrival rate" refer to?
+4
+The rate at which customers are served
+The rate at which customers arrive at the system
+The number of servers
+The waiting time
+1
+What is the probability of getting exactly 3 heads in 5 tosses of a fair coin?
+4
+$\frac{5}{32}$
+$\frac{10}{32}$
+$\frac{15}{32}$
+$\frac{20}{32}$
+1
+In a simulation model, what is a "warm-up period"?
+4
+The time before the simulation starts
+The initial period where the system reaches steady state
+The time after the simulation ends
+The time taken to run the simulation
+1
+What is the solution to the system of equations:
+4
+$x=4, y=2$
+$x=3, y=4$
+$x=2, y=6$
+$x=5, y=0$
+0
+Which of the following is NOT a step in the modeling process?
+4
+Formulating the problem
+Collecting data
+Ignoring constraints
+Validating the model
+2
+What is the expected value of a discrete random variable?
+4
+The most likely outcome
+The weighted average of all possible outcomes
+The median value
+The variance
+1
+In Monte Carlo simulation, which of the following is true?
+4
+It uses deterministic inputs
+It uses random sampling to estimate results
+It always gives exact answers
+It is only used for linear problems
+1
+
+ITE1
+What does CPU stand for?
+4
+Central Processing Unit
+Computer Personal Unit
+Central Performance Unit
+Control Processing Unit
+0
+Which of the following is an example of an input device?
+4
+Monitor
+Keyboard
+Printer
+Speaker
+1
+What is the primary function of an operating system?
+4
+To manage hardware and software resources
+To create documents
+To browse the internet
+To play multimedia files
+0
+Which of the following is NOT an example of an operating system?
+4
+Windows
+lunox
+Microsoft Word
+macOS
+2
+What does HTTP stand for?
+4
+HyperText Transfer Protocol
+HyperText Transmission Program
+HyperText Transfer Program
+HyperText Transmission Protocol
+0
+Which device is used to connect a computer to a network?
+4
+Router
+Monitor
+Keyboard
+printer
+0
+What is the main purpose of RAM in a computer?
+4
+To store data permanently
+To temporarily store data and instructions for quick access
+To display images on the screen
+To connect to the internet
+1
+Which of the following is a programming language?
+4
+HTML
+CSS
+Python
+HTTP
+2
+What does URL stand for?
+4
+Uniform Resource Locator
+Universal Resource Link
+Uniform Reference Locator
+Universal Reference Link
+0
+Which of the following is NOT a type of computer network?
+4
+LAN
+PAN
+MAN
+FAN
+0
+What is the function of a firewall in computer networks?
+4
+To speed up internet connection
+To block unauthorized access
+To store data
+To connect devices wirelessly
+1
+Which of the following is an example of cloud storage?
+4
+USB flash drive
+Google Drive
+External hard drive
+CD-ROM
+1
+What does GUI stand for?
+4
+Graphical User Interface
+General User Interaction
+Graphical Utility Interface
+General Utility Interaction
+0
+Which of the following is NOT a type of malware?
+4
+Virus
+Worm
+Trojan horse
+Firewall
+3
+What is the binary equivalent of the decimal number 10?
+4
+1010
+1100
+1001
+1110
+0
+
+PE2
+What is the primary purpose of folk dance?
+4
+To entertain only
+To express cultural traditions and stories
+To compete in sports
+To learn new languages
+1
+Which of the following is a traditional Filipino folk dance?
+4
+Salsa
+Tinikling
+Ballet
+Tango
+1
+What is the main instrument used in the Tinikling dance?
+4
+Guitar
+Bamboo poles
+Drums
+Flute
+1
+In folk dance, what does rhythm primarily refer to?
+4
+The costume design
+The timing and pattern of beats in music
+The dance steps
+The stage lighting
+1
+Which of the following is NOT a characteristic of folk dances?
+4
+Passed down through generations
+Reflects the culture of a community
+Requires expensive costumes
+Often performed during festivals
+2
+What is the typical formation in many folk dances?
+4
+Solo only
+Circle or line formation
+Random movement
+Sitting down
+1
+Which of the following is a rhythmic activity?
+4
+Jogging
+Clapping hands to a beat
+Swimming
+Weightlifting
+1
+What is the importance of posture in folk dance?
+4
+It helps in storytelling and aesthetics
+It makes the dance faster
+It is not important
+It only matters in ballet
+0
+Which folk dance involves dancers mimicking the movements of birds?
+4
+Tinikling
+Itik-Itik
+Pandanggo sa Ilaw
+Singkil
+1
+What is the meaning of "Pandanggo" in "Pandanggo sa Ilaw"?
+4
+Dance with lights
+Dance with swords
+Dance with water
+Dance with fire
+0
+Which body part is most emphasized in rhythmic activities?
+4
+Hands and feet
+Head only
+Back only
+Eyes only
+0
+What is the main purpose of rhythmic activities in physical education?
+4
+To improve coordination and timing
+To increase muscle size
+To improve running speed
+To learn math
+0
+Which of the following is a common element in folk dances?
+4
+Improvisation
+Strict choreography only
+No music
+No costumes
+0
+What is the traditional costume worn in the Tinikling dance?
+4
+Barong Tagalog and Saya
+Jeans and T-shirt
+Kimono
+Suit and tie
+0
+What is the best way to learn a folk dance?
+4
+Watching videos only
+Practicing with a group and following the rhythm
+Reading about it only
+Listening to music without moving
+1
+
+NET102
+What does the acronym DHCP stand for?
+4
+Dynamic Host Configuration Protocol
+Data Host Control Protocol
+Dynamic Hypertext Control Protocol
+Data Hyper Configuration Process
+0
+Which layer of the OSI model is responsible for routing?
+4
+Data Link Layer
+Network Layer
+Transport Layer
+Application Layer
+1
+What is the default port number for HTTPS?
+4
+81
+443
+21
+36
+1
+Which protocol is used to securely transfer files over the internet?
+4
+FTP
+SFTP
+HTTP
+SMTP
+1
+What is the purpose of a subnet mask?
+4
+To identify the network and host portions of an IP address
+To encrypt data packets
+To assign IP addresses dynamically
+To route packets between networks
+0
+Which device operates at the Data Link layer and is used to connect devices within the same network?
+4
+Router
+Switch
+Hub
+Modem
+1
+What is the maximum number of hosts in a Class C network?
+4
+254
+267
+298
+109
+0
+Which protocol is used to send email?
+4
+FTP
+SMTP
+HTTP
+SNMP
+1
+What does NAT stand for in networking?
+4
+Network Address Translation
+Network Access Terminal
+ Node Address Transfer
+Network Allocation Table
+0
+Which of the following is a private IP address?
+4
+8.8.8.8
+192.168.1.1
+172.217.3.110
+54.85.132.1
+1
+What is the function of a DNS server?
+4
+To assign IP addresses
+To translate domain names to IP addresses
+To route packets between networks
+To encrypt data
+1
+Which protocol is used for remote command-line login?
+4
+FTP
+Telnet
+SSH
+HTTP
+2
+What is the purpose of the ARP protocol?
+4
+To map IP addresses to MAC addresses
+To assign IP addresses dynamically
+To encrypt data packets
+To route packets between networks
+0
+Which of the following is NOT a valid IPv4 address?
+4
+192.168.0.1
+256.100.50.25
+10.0.0.5
+172.16.254.1
+1
+What type of attack involves intercepting and altering communication between two parties?
+4
+Phishing
+Man-in-the-Middle
+Denial of Service
+ Spoofing
+1
+
+ITE2
+Which of the following is NOT a feature of Object-Oriented Programming?
+4
+Encapsulation
+Inheritance
+Polymorphism
+Compilation
+3
+In Java, which keyword is used to inherit a class?
+4
+implements
+extends
+inherits
+super
+1
+What is method overloading?
+4
+Defining multiple methods with the same name but different parameters
+Defining a method in a subclass that overrides a superclass method
+Calling a method from another class
+Using static methods only
+0
+Which of the following is true about an abstract class?
+4
+It can be instantiated directly
+It can contain abstract methods
+ It cannot have constructors
+It must implement all interfaces
+1
+What is the purpose of the 'super' keyword in Java?
+4
+To refer to the current class instance
+To call the parent class constructor or methods
+To create a new object
+To define a static method
+1
+Which of the following access modifiers allows access only within the same package?
+4
+public
+private
+protected
+default (no modifier)
+3
+What is polymorphism in Java?
+4
+The ability of a variable, function, or object to take multiple forms
+The process of hiding data
+The process of creating new classes
+The ability to overload methods only
+0
+Which of the following is NOT a valid way to achieve polymorphism?
+4
+Method overloading
+Method overriding
+Using interfaces
+Using static methods only
+3
+What is encapsulation?
+4
+Wrapping data and methods into a single unit (class) and restricting access
+Inheriting properties from another class
+Overloading methods
+Creating abstract classes
+0
+Which of the following is true about interfaces in Java?
+4
+They can contain method implementations
+A class can implement multiple interfaces
+They can have constructors
+They can be instantiated directly
+1
+ What will happen if a class does not implement all methods of an interface?
+4
+The class will compile successfully
+The class must be declared abstract
+The class will throw a runtime exception
+The class will automatically implement the missing methods
+1
+Which keyword is used to prevent a method from being overridden?
+4
+static
+final
+abstract
+private
+1
+Which of the following is true about constructors in Java?
+4
+Constructors have a return type
+Constructors can be inherited
+Constructors are called when an object is created
+Constructors can be abstract
+2
+What is the default value of an instance variable of type boolean in Java?
+4
+true
+false
+null
+out
+1
+Which of the following is NOT a principle of Object-Oriented Programming?
+4
+Encapsulation
+Inheritance
+Polymorphism
+Compilation
+3
+

@@ -1,0 +1,11 @@
+# PRINCEB SUBJECTS v1
+CC103|Computer Programming 2
+KOMFIL|Kontekstwalisadong Komunikasyon sa Filipino
+MS101|Discrete Mathematics
+IPT101|Integrative Programming and Technologies 1
+NET101|Networking 1
+MS102|Quantitaive Methods with Modeling Simulation
+ITE1|IT ELECTIVE 1 (Web Fundamentals)
+PE2|Folk Dance and Rhytmic Activities
+NET102|Networking 2
+ITE2|IT ELECTIVE 2 (Advance Java OOP)

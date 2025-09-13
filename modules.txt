@@ -1,0 +1,881 @@
+# PRINCEB MODULES v1
+Introduction to Quantitative Method with Modeling Simulation
+141
+Definition: Use of mathematical, statistical, and computational techniques to solve real-world problems.
+
+Goal: Improve decision-making through data analysis and mathematical modeling.
+
+Common Techniques:
+
+Linear programming
+
+Simulation modeling
+
+Forecasting
+
+Decision analysis
+
+Probability and statistics
+
+2. Mathematical Modeling
+
+Model: A simplified representation of reality to study system behavior.
+
+Types:
+
+Deterministic models - Output is fully determined by input values.
+
+Probabilistic (Stochastic) models - Incorporate randomness.
+
+Static vs. Dynamic models - Based on whether time is considered.
+
+Modeling Process:
+
+Define the problem
+
+Formulate the model (variables, equations, constraints)
+
+Input data
+
+Solve and analyze
+
+Validate the model
+
+Implement results
+
+3. Linear Programming (LP)
+
+Used for optimization (maximization or minimization of an objective function).
+
+Components:
+
+Decision variables
+
+Objective function
+
+Constraints
+
+Solving Methods:
+
+Graphical Method (for simple models)
+
+Simplex Method
+
+Software tools (Excel Solver, Python libraries, etc.)
+
+4. Simulation Modeling
+
+Used to mimic real systems and observe performance over time.
+
+Types:
+
+Monte Carlo Simulation - Uses random sampling to estimate outcomes.
+
+Discrete-Event Simulation (DES) - Models systems as a sequence of events.
+
+Key Components:
+
+Entities
+
+Resources
+
+Queues
+
+Events
+
+Tools:
+
+Excel (with random functions or add-ins)
+
+Python (SimPy, NumPy)
+
+Simulation software (Arena, AnyLogic, Simul8)
+
+5. Probability & Statistics Review
+
+Basic concepts: mean, variance, standard deviation
+
+Discrete distributions: Binomial, Poisson
+
+Continuous distributions: Normal, Exponential
+
+Law of Large Numbers - Averages stabilize over many trials
+
+Central Limit Theorem - Sample means tend toward a normal distribution
+
+6. Forecasting Techniques
+
+Moving Averages
+
+Exponential Smoothing
+
+Linear Regression
+
+Time Series Analysis
+
+Used to predict future values based on historical data patterns.
+
+7. Decision Analysis
+
+Decision Trees
+
+Payoff Tables
+
+Expected Monetary Value (EMV): Multiply probability by payoff and sum across all outcomes
+
+8. Queuing Theory (if applicable)
+
+Models systems with waiting lines
+
+Key metrics: arrival rate, service rate, utilization, average waiting time
+
+Common models: single-server, multi-server, finite queue systems
+
+9. Sensitivity Analysis
+
+Assesses how changes in input affect the output
+
+Useful for testing the robustness of a solution or model
+
+10. Simulation vs. Optimization
+Feature	Simulation	Optimization
+Purpose	Understand system behavior	Find best solution
+Output	Performance under different scenarios	Optimal decision variables
+Examples	Monte Carlo, Discrete-Event	Linear Programming, Integer Programming.
+
+Fundamentals of C++ Programming Language
+39
+C++ is a general-purpose, object-oriented programming language that supports both high-level and low-level programming features.
+
+A C++ program starts execution from the main() function, which serves as the entry point.
+
+Header files (like #include <iostream>) are used to include libraries and functionality such as input/output.
+
+std::cout is used to display output, while std::cin is used to receive input from the user.
+
+Semicolons (;) are used to terminate C++ statements.
+
+Variables must be declared with a specific data type like int, float, char, bool, etc.
+
+Operators (like +, -, *, /, ==, !=) are used to perform arithmetic, logical, and comparison operations.
+
+Control structures such as if, else, switch, while, for, and do-while manage the flow of the program.
+
+A function is a block of code that performs a specific task and can return a value.
+
+Function parameters allow passing values, and return statements provide output from the function.
+
+Arrays are used to store multiple values of the same type in contiguous memory locations.
+
+Pointers store memory addresses and can be used to dynamically manage memory.
+
+The new and delete operators are used for dynamic memory allocation and deallocation.
+
+Object-oriented programming (OOP) in C++ is built around classes and objects.
+
+A class defines a blueprint with data members (variables) and member functions (methods).
+
+Encapsulation hides data using access specifiers like private, public, and protected.
+
+Inheritance allows one class to derive features from another class.
+
+Polymorphism enables functions or methods to behave differently based on the context.
+
+Constructors initialize objects, and destructors clean up resources when an object is destroyed.
+
+The Standard Template Library (STL) provides useful templates like vector, list, map, and algorithms.
+
+Web Fundamentals
+70
+1. Introduction to Web Development
+
+Web Development: The process of building and maintaining websites.
+
+Two main components:
+
+Frontend (Client-side): What users see (HTML, CSS, JavaScript).
+
+Backend (Server-side): Handles logic, database, user authentication, etc. (e.g., PHP, Node.js).
+
+?? 2. Internet & World Wide Web (WWW)
+
+Internet: Global network of computers.
+
+World Wide Web (WWW): Collection of web pages accessible via the Internet using a browser.
+
+Web Browser: Software used to access and view websites (e.g., Chrome, Firefox).
+
+URL: Uniform Resource Locator, the address of a webpage.
+
+Common HTML Tags:
+
+<h1> to <h6>: Headings
+
+<p>: Paragraph
+
+<a href="">: Hyperlink
+
+<img src="" alt="">: Image
+
+<ul>, <ol>, <li>: Lists
+
+<div>, <span>: Containers for styling/layout
+
+<form>: Used to collect user input
+
+CSS (Cascading Style Sheets)
+
+Used to style HTML elements.
+
+Can be:
+
+Inline (style="")
+
+Internal (<style> tag in <head>)
+
+External (.css file linked via <link>)
+Common Properties:
+
+color, background-color
+
+font-size, font-family
+
+margin, padding, border
+
+display, position, float
+
+9. Basic Web Project Flow
+
+Plan and design layout.
+
+Structure with HTML.
+
+Style with CSS.
+
+Add interactivity using JS.
+
+Test in multiple browsers/devices.
+
+Deploy to the web.
+
+Advanced Java Object-Oriented Programming (OOP)
+56
+1. Understanding Advanced Object-Oriented Programming (OOP) in Java
+
+Advanced Java OOP builds upon the foundational concepts of object-oriented programming, extending them to include more sophisticated tools and techniques. While basic OOP includes encapsulation, inheritance, polymorphism, and abstraction, advanced Java OOP explores how these principles can be applied to solve real-world problems using design patterns, generics, exception handling, interfaces, and multi-threading.
+
+Java, being a purely object-oriented language (except for primitives), offers strong support for modularity and reusability through classes and objects. In Advanced Java OOP, developers learn not just to build programs, but to architect systems that are maintainable, scalable, and efficient.
+
+2. Interfaces, Abstract Classes, and Multiple Inheritance
+
+One key concept in Advanced Java OOP is the use of interfaces and abstract classes. An abstract class allows partial abstraction, containing both abstract and non-abstract methods. It serves as a base for subclasses to implement or override behavior. Interfaces, on the other hand, define a contract for what a class can do, without specifying how.
+
+Java doesn't support multiple inheritance with classes to avoid the "diamond problem," but this is addressed through interfaces. A class can implement multiple interfaces, allowing a form of multiple inheritance. Understanding when to use abstract classes versus interfaces is vital for designing flexible and robust applications.
+
+3. Exception Handling and Custom Exceptions
+
+Advanced Java OOP emphasizes robust exception handling using try-catch-finally blocks. Exception handling is crucial for preventing runtime crashes and making applications user-friendly. Java allows both checked and unchecked exceptions, providing the developer control over how errors are managed.
+
+Creating custom exceptions is another powerful technique. By extending the Exception or RuntimeException classes, developers can create application-specific exceptions to better communicate the cause of an error. This is especially useful in large systems where clarity in debugging and logging is necessary.
+
+4. Generics and Type Safety
+
+Generics is an advanced feature in Java that allows classes, interfaces, and methods to operate on objects of various types while providing compile-time type safety. Collections, such as ArrayList<T>, are commonly used with generics to prevent type-casting errors and improve code clarity.
+
+Generics also support the DRY (Don't Repeat Yourself) principle, allowing developers to write more general and reusable code. Mastery of bounded types (<T extends Class>) and wildcard types (<?>, <? extends T>, <? super T>) is essential in understanding how to write flexible APIs.
+
+5. Inner Classes and Anonymous Classes
+
+Advanced Java also introduces inner classes, which are defined within the scope of another class. They can access the members of the outer class and are often used to logically group classes that are only used in one place. There are several types: member inner classes, static nested classes, local inner classes, and anonymous classes.
+
+Anonymous classes are particularly useful for instantiating interfaces or abstract classes on the fly, especially in event handling (e.g., GUI programming) and passing behavior as parameters (before Java 8's lambdas). They provide a way to write concise code that performs quick tasks without creating a separate class file.
+
+6. Collections Framework and Data Structures
+
+The Java Collections Framework is a vital part of Advanced Java. It includes various interfaces like List, Set, Queue, and Map, and their implementations such as ArrayList, HashSet, LinkedList, and HashMap.
+
+Each collection type serves specific use cases. For example, List maintains order and allows duplicates, while Set does not. Understanding the time complexities of these structures is important for writing optimized code.
+
+Advanced Java also explores sorting and searching within collections using Comparator and Comparable interfaces. These allow developers to define natural and custom sorting orders.
+
+7. Multithreading and Concurrency
+
+Multithreading is one of the most powerful and complex topics in Advanced Java. Java supports multithreading via the Thread class and the Runnable interface. Multithreaded programs can run multiple tasks concurrently, improving performance and responsiveness, especially in applications like games, simulations, and network services.
+
+Managing threads involves synchronization, which prevents concurrent threads from corrupting shared data. Java provides several mechanisms, such as synchronized blocks and methods, thread-safe collections, and higher-level concurrency utilities from the java.util.concurrent package like ExecutorService, Semaphore, and CountDownLatch.
+
+8. Lambda Expressions and Functional Interfaces
+
+Introduced in Java 8, lambda expressions simplify the way we write instances of interfaces with a single method, known as functional interfaces (e.g., Runnable, Comparator, ActionListener). Lambdas make code more concise and readable, especially when working with collections and streams.
+
+For example, instead of using an anonymous inner class, a lambda can be used to define behavior inline. This aligns Java more closely with functional programming paradigms and is a core part of modern Java development.
+
+9. Design Principles and Design Patterns
+
+Advanced Java OOP includes learning about design principles such as SOLID (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion). These principles guide the development of systems that are easy to maintain and extend.
+
+Additionally, design patterns like Singleton, Factory, Observer, Strategy, and Decorator are introduced. These are proven solutions to common software design problems. Mastery of these patterns allows Java developers to write code that is not only effective but also understandable by other professionals who are familiar with these patterns.
+
+
+Foundational Concepts of Networking
+123
+1. Introduction to Networking 2
+
+Networking 2 (NET102) builds upon the foundational concepts covered in the first networking course. While Networking 1 introduces students to the basics of network types, models (OSI and TCP/IP), IP addressing, and basic configurations, Networking 2 delves deeper into routing, switching, VLANs, WAN technologies, and network troubleshooting. The goal of this course is to prepare students to design, configure, manage, and troubleshoot intermediate-level networks.
+
+2. Routing Concepts and Protocols
+
+One of the core topics in NET102 is routing. Routing is the process of selecting the best path for data to travel across interconnected networks. There are two main types of routing: static routing, where paths are manually configured, and dynamic routing, where routers exchange information to determine the best path automatically.
+
+NET102 covers dynamic routing protocols such as:
+
+RIP (Routing Information Protocol) - A distance-vector protocol that uses hop count as a metric.
+
+OSPF (Open Shortest Path First) - A link-state protocol that builds a complete map of the network to determine the best path.
+
+EIGRP (Enhanced Interior Gateway Routing Protocol) - A Cisco proprietary protocol that combines features of both distance-vector and link-state.
+
+Understanding these protocols includes knowing how they share routing information, their convergence times, metrics used, and advantages/disadvantages in various environments.
+
+3. VLANs and Inter-VLAN Routing
+
+Virtual LANs (VLANs) are another essential concept in Networking 2. VLANs logically segment a physical network into separate broadcast domains, enhancing performance and security. Each VLAN functions as a separate subnet, isolating traffic and reducing congestion.
+
+NET102 teaches how to configure VLANs on switches using Cisco IOS, assign ports to VLANs, and verify VLAN configurations. To enable communication between different VLANs, inter-VLAN routing is required. This can be done using:
+
+Router-on-a-stick (a router with a trunk link),
+
+Layer 3 switches that perform routing functions internally.
+
+VLAN configuration is a key skill for students aiming to work in enterprise networks where traffic isolation is critical.
+
+4. Switching and Spanning Tree Protocol (STP)
+
+Switching is the backbone of modern LANs. Networking 2 explores advanced switching concepts, including:
+
+MAC address tables
+
+Port security
+
+Trunking (IEEE 802.1Q)
+
+VTP (VLAN Trunking Protocol)
+
+Additionally, the Spanning Tree Protocol (STP) is studied to prevent layer 2 loops, which can cause broadcast storms and bring down a network. STP allows switches to disable redundant paths and re-enable them if the main path fails.
+
+Students learn how STP works, including terms like root bridge, port roles (root, designated, blocked), and how to influence STP behavior.
+
+5. Access Control Lists (ACLs)
+
+Access Control Lists are used to filter network traffic and enhance security. ACLs can permit or deny traffic based on various criteria such as IP address, port number, and protocol type.
+
+In NET102, students learn to configure both:
+
+Standard ACLs - Filter based on source IP addresses.
+
+Extended ACLs - Filter based on source and destination IP, port, and protocol.
+
+ACLs are applied to router interfaces in either the inbound or outbound direction and play a critical role in securing networks against unauthorized access.
+
+6. DHCP, NAT, and Network Services
+
+NET102 introduces key network services that support client connectivity and IP address management:
+
+DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses to devices.
+
+NAT (Network Address Translation) allows private IP addresses to access the internet by translating them to a public IP. It is vital for IP conservation and security.
+
+Understanding how to configure and troubleshoot these services is essential for maintaining connectivity and efficient network management.
+
+7. Wide Area Networks (WANs) and VPNs
+
+As networks expand across cities or countries, WAN technologies become critical. NET102 introduces common WAN technologies like:
+
+Point-to-Point Protocol (PPP)
+
+HDLC (High-Level Data Link Control)
+
+Frame Relay (though now mostly legacy)
+
+MPLS (Multiprotocol Label Switching)
+
+Metro Ethernet
+
+Additionally, VPNs (Virtual Private Networks) are discussed for securing data over public networks. Students explore site-to-site and remote-access VPNs and the basics of encryption and tunneling protocols (e.g., IPsec, GRE).
+
+8. Network Troubleshooting and Tools
+
+Troubleshooting is a vital skill in NET102. Students are taught how to use tools and methods such as:
+
+Ping and Traceroute
+
+show and debug commands in Cisco IOS
+
+Packet analyzers (e.g., Wireshark)
+
+Syslog and SNMP (Simple Network Management Protocol) for monitoring
+
+The course emphasizes a structured troubleshooting process: identifying the problem, gathering information, isolating the issue, and implementing a solution.
+
+9. IPv6 Fundamentals
+
+With IPv4 address exhaustion, IPv6 is a necessary addition to Networking 2. The course covers:
+
+IPv6 address structure (128-bit hexadecimal)
+
+Types of IPv6 addresses: Unicast, Multicast, Anycast
+
+Stateless address autoconfiguration (SLAAC)
+
+Dual-stack and tunneling techniques for transitioning from IPv4
+
+Understanding IPv6 is essential for future-proofing skills and supporting modern networks.
+
+10. Basic Network Security Practices
+
+While advanced network security is usually a separate course, NET102 touches on basic practices such as:
+
+Securing router access (passwords, SSH, login banners)
+
+Port security on switches
+
+Mitigating common attacks like MAC flooding and IP spoofing
+
+Configuring firewalls and ACLs for traffic filtering.
+
+Introduction to Integrative Programming
+105
+1. Introduction to Integrative Programming
+
+Integrative Programming and Technologies 1 (IPT101) focuses on combining programming knowledge with various technologies to develop dynamic, interactive, and functional software applications. It introduces students to component-based and event-driven programming while integrating concepts from different platforms and tools.
+
+The course serves as a transition from purely algorithmic or console-based programming to application development that interacts with databases, graphical user interfaces (GUI), and sometimes web technologies. The emphasis is on building modular, reusable, and scalable software solutions.
+
+2. Event-Driven and Component-Based Programming
+
+A key foundation of IPT101 is event-driven programming, where the flow of the program is determined by events such as user actions (mouse clicks, key presses), sensor outputs, or message passing. This is in contrast to procedural programming, where instructions run sequentially.
+
+Event-driven programming is central to graphical user interfaces (GUIs). In a GUI application, the user controls the program flow, not the programmer. This requires the developer to write event handlers that respond to specific triggers, enhancing user interaction and responsiveness.
+
+Component-based programming focuses on building applications using reusable components or objects, such as buttons, forms, grids, and panels. These components encapsulate their functionality, allowing for better code organization and reuse.
+
+3. Introduction to Visual Programming Tools
+
+IPT101 commonly introduces students to visual development environments like:
+
+Microsoft Visual Studio (.NET framework)
+
+JavaFX or Swing for Java-based GUI development
+
+Delphi or other RAD (Rapid Application Development) tools
+
+These environments allow students to drag and drop interface components (e.g., buttons, text fields, labels) onto a form, then define their behavior using event-handling code.
+
+This approach helps students focus on functionality and logic rather than building the interface manually from scratch.
+
+4. Programming Languages Used in IPT101
+
+The programming languages used in IPT101 depend on the school or instructor, but the most common include:
+
+C# (.NET Framework) - Common in Windows application development.
+
+Java - Used with GUI frameworks like Swing or JavaFX.
+
+VB.NET - Sometimes used for its simplicity in rapid prototyping.
+
+The key is not just learning the syntax, but understanding how to interact with GUI components, manage events, and connect to data sources like databases or APIs.
+
+5. Input Validation and Error Handling
+
+In application development, it's critical to handle user input safely. IPT101 covers input validation, ensuring the data entered into forms is correct, secure, and appropriate for processing.
+
+Error handling is also a crucial topic. Using constructs like try-catch-finally, students learn to anticipate and handle runtime errors gracefully, providing a better user experience and reducing crashes.
+
+Proper validation and error handling are essential for building reliable and secure applications.
+
+6. File Handling and Data Storage
+
+Beyond GUI programming, IPT101 introduces file handling, enabling programs to read from and write to external files. This includes:
+
+Text files (CSV, TXT)
+
+Binary files
+
+JSON or XML for structured data
+
+Students learn how to store user data, retrieve saved settings, or export reports, preparing them to work with both temporary and persistent data storage.
+
+7. Introduction to Databases and CRUD Operations
+
+One of the most important integrations in IPT101 is connecting applications to databases. Students learn how to:
+
+Connect to a local or remote database (usually using SQL-based systems like MySQL, SQLite, or MS Access).
+
+Perform CRUD operations: Create, Read, Update, Delete.
+
+Use SQL queries within the program to interact with the database.
+
+Understanding how to bind form data to database tables enables the creation of real-world applications such as inventory systems, student records, and user logins.
+
+8. Modularization and Code Reusability
+
+As projects become more complex, IPT101 stresses the importance of writing modular code-breaking down the application into smaller, reusable methods or classes. This makes code easier to maintain, debug, and extend.
+
+Students are encouraged to practice code reuse, using the same function in different parts of the application to avoid duplication. This aligns with software engineering principles like DRY (Don't Repeat Yourself) and Separation of Concerns.
+
+9. Simple Software Development Life Cycle (SDLC) Awareness
+
+Though not a full software engineering course, IPT101 introduces basic SDLC phases:
+
+Planning and Analysis
+
+Design (UI/UX, database schema)
+
+Implementation (coding)
+
+Testing (debugging, validation)
+
+Deployment (simple installers or builds)
+
+By understanding this process, students begin to see programming as part of a bigger system and are better prepared for real-world development or capstone projects.
+
+10. Capstone Project or Mini-System Development
+
+Many IPT101 courses culminate in a mini-project where students build a functional application, often with a GUI and database backend. Common project types include:
+
+Inventory management system
+
+Student information system
+
+Reservation or booking system
+
+Point of Sale (POS) system
+
+Folk Dance and Rhythmic Activities
+47
+Introduction
+
+Physical Education 2 (PE 2) focuses on the study and practice of Folk Dance and Rhythmic Activities, essential components of Filipino culture and physical fitness. These activities are not only physical exercises but also cultural expressions that promote discipline, coordination, and appreciation of heritage. This essay will explore the definitions, importance, types, and examples of folk dances and rhythmic activities.
+
+Folk Dance: Definition and Importance
+
+Folk dance is a traditional form of dance that reflects the life, customs, and beliefs of a particular community or region. In the Philippines, folk dances are an essential part of cultural identity, showcasing regional diversity and history. They are usually performed during festivals, rituals, and community gatherings.
+
+Folk dancing promotes cultural preservation, nationalism, and physical fitness. It enhances flexibility, endurance, and coordination, while also teaching teamwork and respect for tradition.
+
+Types of Philippine Folk Dances
+
+Cordillera Dances - from the highlands of Luzon (e.g., Tarektek, Banga, Idudu).
+
+Spanish-influenced Dances - showcase Hispanic culture and elegance (e.g., Jota Moncade¤a, Pandanggo sa Ilaw, Cari¤osa).
+
+Muslim Dances - performed by groups from Mindanao, rich in intricate hand movements and colorful costumes (e.g., Singkil, Pangalay).
+
+Rural Dances - depict everyday Filipino life and are typically lively and humorous (e.g., Tinikling, Maglalatik, Sayaw sa Bangko).
+
+Tribal Dances - reflect rituals and spiritual beliefs of indigenous groups (e.g., Binanog, Tudbulul).
+
+Rhythmic Activities: Definition and Role in PE
+
+Rhythmic activities involve movement patterns coordinated with music or a beat. They develop motor skills, rhythm, timing, and grace. In PE, rhythmic activities help improve body coordination, balance, and cardiovascular endurance, while also fostering creativity and self-expression.
+
+These activities can range from simple exercises like clapping and stepping to a beat, to more complex movements such as aerobic dance, zumba, cheer dancing, or even basic gymnastics.
+
+Examples of Rhythmic Activities
+
+Basic Rhythmic Movements: Clapping, tapping, marching, skipping
+
+Rhythmic Gymnastics: Using apparatus like ribbons or hoops
+
+Dance Aerobics: Combining dance steps with fitness routines
+
+Folk Dances: As rhythmic activities, they follow specific music and patterns
+
+Benefits of Folk Dance and Rhythmic Activities
+
+Physical Health: Improves strength, flexibility, and stamina
+
+Mental Well-being: Enhances memory, focus, and reduces stress
+
+Social Skills: Encourages cooperation, communication, and group participation
+
+Cultural Awareness: Builds pride and appreciation for Filipino heritage
+
+Discrete Mathematics
+15
+Introduction
+
+Discrete Mathematics is a foundational subject in computer science and mathematics, focusing on structures that are fundamentally distinct or separate. Unlike continuous mathematics (e.g., calculus), discrete mathematics deals with finite or countable structures, such as integers, graphs, statements in logic, and algorithms. MS101 provides students with critical tools for logical reasoning, problem-solving, and computational thinking.
+
+1. Logic and Propositional Calculus
+
+Logic is the backbone of discrete mathematics and computer science. It involves studying propositions (statements that are either true or false) and how they can be combined using logical connectives such as:
+
+AND (?)
+
+OR (?)
+
+NOT (ª)
+
+IMPLICATION (
+
+Paggamit ng wikang Filipino sa iba't ibang konteksto
+101
+Ang Kontekstwalisadong Komunikasyon sa Filipino o KOMFIL ay isang asignaturang nakatuon sa mas malalim na paggamit ng wikang Filipino sa iba't ibang konteksto - akademiko, propesyonal, personal, at kultural. Layunin ng kursong ito na linangin ang kakayahan ng mga mag-aaral na makipagtalastasan nang epektibo gamit ang Filipino, batay sa kanilang lokal na karanasan, isyu, at pangangailangan ng lipunan.
+
+1. Kahulugan ng Kontekstwalisadong Komunikasyon
+
+Ang kontekstwalisadong komunikasyon ay tumutukoy sa paggamit ng wika batay sa tiyak na konteksto o sitwasyon. Dito isinasaalang-alang ang mga sumusunod:
+
+Kultural - paniniwala, kaugalian, at gawi ng isang grupo
+
+Sosyal - ugnayan ng mga taong sangkot sa komunikasyon
+
+Heograpikal - lokasyon ng tagapagsalita at tagapakinig
+
+Sitwasyonal - layunin at gamit ng wika sa partikular na sandali
+
+Ang KOMFIL ay hindi lamang pagtuturo ng gramatika kundi paghubog ng mapanuri, makabansa, at makataong komunikador.
+
+2. Gamit ng Wika sa Iba't Ibang Konteksto
+A. Akademikong Konteksto
+
+Gamit sa pananaliksik, sanaysay, at iba pang gawaing pang-akademiko
+
+Pormal, obhetibo, at lohikal ang pagkakabuo ng ideya
+
+B. Personal na Konteksto
+
+Gamit sa araw-araw na komunikasyon tulad ng pakikipag-usap sa kaibigan o pamilya
+
+Karaniwang di-pormal, malaya, at emosyonal
+
+C. Propesyonal na Konteksto
+
+Gamit sa trabaho: liham, ulat, memo, at presentasyon
+
+Kailangang malinaw, magalang, at organisado
+
+D. Pampublikong Konteksto
+
+Gamit sa mga talumpati, kampanya, at diskurso sa lipunan
+
+Nagsusulong ng kaalaman, opinyon, at adbokasiya
+
+3. Wika, Kultura, at Lipunan
+
+Ang wika ay hindi lamang kasangkapan sa komunikasyon, kundi tagapagdala rin ng kultura at kasaysayan. Sa KOMFIL, binibigyang-halaga ang ugnayan ng wika sa:
+
+Pagkilala sa identidad ng Pilipino
+
+Pagpapahayag ng damdamin at paninindigan
+
+Pagpapaunlad ng pambansang kamalayan
+
+Itinuturo rin sa asignaturang ito ang kahalagahan ng multilinggwalismo bilang pagkilala sa pagkakaiba-iba ng wika sa Pilipinas (Filipino, Ingles, Mother Tongue, at iba pa).
+
+4. Pagsasagawa ng Akademikong Sulatin
+
+Bahagi ng KOMFIL ang pagsulat at pagbasa ng mga sulating akademiko. Ilan sa mga ito ay:
+
+Pictorial essay
+
+Sanaysay
+
+Panunuring pampanitikan
+
+Pagsasaliksik (research paper)
+
+Ang mga sulating ito ay dapat:
+
+May malinaw na layunin
+
+May lohikal na organisasyon ng ideya
+
+Nakabatay sa datos at ebidensya
+
+Gumagamit ng tamang estilo ng pagsulat
+
+5. Mga Kontemporaryong Isyu sa Lipunan
+
+Itinuturo rin sa KOMFIL ang pagsusuri ng mga kontemporaryong isyu gaya ng:
+
+Kahirapan
+
+Korapsyon
+
+Edukasyon
+
+Karapatang pantao
+
+Kalikasan
+
+Tinuturuan ang mga mag-aaral na gamitin ang wika upang magpahayag ng opinyon, manghikayat, at magbigay-solusyon sa mga problemang panlipunan.
+
+6. Midya at Komunikasyon sa Makabagong Panahon
+
+Sa panahon ng digital at social media, kailangang marunong ang mga estudyante na:
+
+Magsuri ng impormasyon (fact-checking)
+
+Maging responsable sa pagpapahayag
+
+Gumamit ng wika para sa positibong layunin at pagbabago
+
+
+Foundational Knowledge in Networking
+153
+Introduction
+
+Networking 2 builds on the foundational knowledge from Networking 1, moving from basic networking concepts into more complex and practical implementations. The course focuses on how devices communicate within and across networks using routing and switching technologies. It equips students with hands-on skills in configuring, managing, and troubleshooting small to medium-sized networks - a critical step toward certifications like CCNA (Cisco Certified Network Associate) or becoming a professional network administrator.
+
+1. Routing Concepts
+
+Routing is the process of selecting paths in a network along which to send data packets. In Networking 2, students learn the differences between:
+
+Static Routing - manually configured routes
+
+Dynamic Routing - routes learned and updated automatically using protocols
+
+Common Routing Protocols:
+
+RIP (Routing Information Protocol) - distance-vector, simple but outdated
+
+OSPF (Open Shortest Path First) - link-state, efficient and scalable
+
+EIGRP (Enhanced Interior Gateway Routing Protocol) - Cisco proprietary, hybrid
+
+BGP (Border Gateway Protocol) - used for routing between ISPs (internet-level)
+
+Routing tables, administrative distance, and metrics are key elements of how routers determine the best path.
+
+2. Switching Concepts
+
+Switching occurs within Local Area Networks (LANs) and is essential for efficient internal communication between devices.
+
+Key Concepts:
+
+MAC Address Table - used by switches to forward frames
+
+Collision Domains vs. Broadcast Domains
+
+Full-duplex vs. Half-duplex communication
+
+Switching Methods:
+
+Store-and-forward
+
+Cut-through
+
+Fragment-free
+
+Switches help segment networks for performance and reduce congestion by directing traffic only where needed.
+
+3. VLANs (Virtual Local Area Networks)
+
+A VLAN allows a single switch to act like multiple separate networks.
+
+Helps improve security, network efficiency, and organization.
+
+Devices in different VLANs cannot communicate without a router or Layer 3 switch.
+
+Key VLAN Topics:
+
+VLAN tagging (IEEE 802.1Q)
+
+Inter-VLAN Routing
+
+VTP (VLAN Trunking Protocol) - used to manage VLANs across multiple switches
+
+Trunk Ports vs. Access Ports
+
+Example: Separate VLANs for students, faculty, and admin departments in a school network.
+
+4. IP Addressing and Subnetting (Advanced)
+
+Networking 2 dives deeper into IP subnetting, VLSM (Variable Length Subnet Masking), and CIDR (Classless Inter-Domain Routing).
+
+Learn to create efficient subnet schemes.
+
+Understand IP classes, private vs. public IPs, and address allocation.
+
+Calculate number of hosts, usable IPs, and subnet ranges.
+
+IPv6 is also introduced:
+
+128-bit addresses
+
+Written in hexadecimal (e.g., 2001:0db8::1)
+
+No need for NAT due to vast address space
+
+5. DHCP and NAT
+
+DHCP (Dynamic Host Configuration Protocol): Automatically assigns IP addresses to devices on a network.
+
+NAT (Network Address Translation): Allows multiple devices in a private network to access the internet using a single public IP.
+
+Types of NAT:
+
+Static NAT
+
+Dynamic NAT
+
+PAT (Port Address Translation) - most common, a.k.a. NAT overload
+
+These technologies are essential for managing IP address scarcity and network scalability.
+
+6. ACLs (Access Control Lists)
+
+ACLs are used to control network traffic and improve security.
+
+Applied on routers to permit or deny traffic based on:
+
+Source/destination IP
+
+Protocols
+
+Ports
+
+Types of ACLs:
+
+Standard ACL - filters by source IP only
+
+Extended ACL - filters by source, destination, port, and protocol
+
+Example: Blocking social media sites during work hours.
+
+7. Network Troubleshooting Tools and Commands
+
+Networking 2 emphasizes real-world diagnostics using tools such as:
+
+Ping
+
+Traceroute (tracert)
+
+ipconfig/ifconfig
+
+netstat
+
+nslookup
+
+telnet / SSH
+
+show commands on Cisco devices (e.g., show ip route, show vlan)
+
+Understanding how to trace and isolate network issues is vital for network administrators.
+
+8. WAN Technologies (Introductory)
+
+While LANs are covered in Networking 1, Networking 2 introduces WAN (Wide Area Network) concepts:
+
+Leased lines
+
+DSL
+
+Fiber
+
+MPLS
+
+VPN (Virtual Private Network)
+
